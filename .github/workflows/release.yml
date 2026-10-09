@@ -70,7 +70,7 @@ jobs:
           git push origin "${TAG_NAME}"
           
           echo "tag_name=${TAG_NAME}" >> $GITHUB_OUTPUT
-          echo "release_name=Release ${TAG_NAME}" >> $GITHUB_OUTPUT
+          echo "release_name=${TAG_NAME}" >> $GITHUB_OUTPUT
 
       - name: Determine Tag for Push Event
         if: github.event_name == 'push'
@@ -78,7 +78,7 @@ jobs:
         run: |
           TAG_NAME="${GITHUB_REF#refs/tags/}"
           echo "tag_name=${TAG_NAME}" >> $GITHUB_OUTPUT
-          echo "release_name=Release ${TAG_NAME}" >> $GITHUB_OUTPUT
+          echo "release_name=${TAG_NAME}" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
         env:
