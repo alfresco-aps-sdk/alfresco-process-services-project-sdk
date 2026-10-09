@@ -14,7 +14,7 @@
   <a href="https://github.com/OpenPj/alfresco-process-services-project-sdk/wiki"><img src="https://img.shields.io/badge/Documentation-Wiki-informational.svg?logo=github" alt="Wiki Documentation" /></a>
   <a href="https://github.com/OpenPj/alfresco-process-services-project-sdk/stargazers"><img src="https://img.shields.io/github/stars/OpenPj/alfresco-process-services-project-sdk?style=flat&logo=github" alt="GitHub Stars" /></a>
   <a href="https://github.com/OpenPj/alfresco-process-services-project-sdk/issues"><img src="https://img.shields.io/github/issues/OpenPj/alfresco-process-services-project-sdk?logo=github" alt="GitHub Issues" /></a>
-  <a href="https://www.ziaconsulting.com"><img src="https://img.shields.io/badge/Enterprise%20Support-Zia%20Consulting-red.svg" alt="Enterprise Support" /></a>
+  <a href="https://www.taisolutions.com/"><img src="https://img.shields.io/badge/Enterprise%20Support-TAI%20Solutions-red.svg" alt="Enterprise Support" /></a>
 </p>
 
 The **Alfresco Process Services SDK (APS SDK)** is an enterprise development acceleration kit for building, extending, testing, and deploying custom solutions on **Alfresco Process Services (powered by Activiti)**.
@@ -215,4 +215,4 @@ Select an APS version by passing its profile flag (e.g. `-Paps26.2.0`):
 
 ## Enterprise Support
 
-This project is maintained as an open-source community effort. Enterprise maintenance, support, and consulting are provided by **TAI Solutions**.
+This project is maintained as an open-source community effort. Enterprise maintenance, support, and consulting are provided by [**TAI Solutions**](https://www.taisolutions.com/).
