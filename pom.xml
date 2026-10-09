@@ -62,7 +62,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>1</aps.version.minor>
 				<aps.version.revision>0</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.7.1</opencsv.version>
 				<jackson.version>2.14.1</jackson.version>
 				<jackson-annotations.version>2.14.1</jackson-annotations.version>
@@ -101,7 +101,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>2</aps.version.minor>
 				<aps.version.revision>0</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.9</opencsv.version>
 				<jackson.version>2.17.0</jackson.version>
 				<jackson-annotations.version>2.17.0</jackson-annotations.version>
@@ -141,7 +141,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>2</aps.version.minor>
 				<aps.version.revision>1</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.9</opencsv.version>
 				<jackson.version>2.17.0</jackson.version>
 				<jackson-annotations.version>2.17.0</jackson-annotations.version>
@@ -181,7 +181,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>3</aps.version.minor>
 				<aps.version.revision>0</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.9</opencsv.version>
 				<jackson.version>2.17.1</jackson.version>
 				<jackson-annotations.version>2.17.1</jackson-annotations.version>
@@ -221,7 +221,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>3</aps.version.minor>
 				<aps.version.revision>1</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.9</opencsv.version>
 				<jackson.version>2.17.1</jackson.version>
 				<jackson-annotations.version>2.17.1</jackson-annotations.version>
@@ -261,7 +261,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>4</aps.version.minor>
 				<aps.version.revision>0</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.9</opencsv.version>
 				<jackson.version>2.18.1</jackson.version>
 				<jackson-annotations.version>2.18.1</jackson-annotations.version>
@@ -301,7 +301,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>4</aps.version.minor>
 				<aps.version.revision>1</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.9</opencsv.version>
 				<jackson.version>2.18.1</jackson.version>
 				<jackson-annotations.version>2.18.1</jackson-annotations.version>
@@ -341,7 +341,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>4</aps.version.minor>
 				<aps.version.revision>2</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.9</opencsv.version>
 				<jackson.version>2.18.1</jackson.version>
 				<jackson-annotations.version>2.18.1</jackson-annotations.version>
@@ -381,7 +381,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>4</aps.version.minor>
 				<aps.version.revision>3</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.9</opencsv.version>
 				<jackson.version>2.18.1</jackson.version>
 				<jackson-annotations.version>2.18.1</jackson-annotations.version>
@@ -421,7 +421,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>4</aps.version.minor>
 				<aps.version.revision>4</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.9</opencsv.version>
 				<jackson.version>2.18.1</jackson.version>
 				<jackson-annotations.version>2.18.1</jackson-annotations.version>
@@ -461,7 +461,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>4</aps.version.minor>
 				<aps.version.revision>5</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.9</opencsv.version>
 				<jackson.version>2.18.1</jackson.version>
 				<jackson-annotations.version>2.18.1</jackson-annotations.version>
@@ -501,7 +501,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>4</aps.version.minor>
 				<aps.version.revision>6</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.9</opencsv.version>
 				<jackson.version>2.18.1</jackson.version>
 				<jackson-annotations.version>2.18.1</jackson-annotations.version>
@@ -541,7 +541,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>4</aps.version.minor>
 				<aps.version.revision>7</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.9</opencsv.version>
 				<jackson.version>2.18.1</jackson.version>
 				<jackson-annotations.version>2.18.1</jackson-annotations.version>
@@ -581,7 +581,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>5</aps.version.minor>
 				<aps.version.revision>0</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.10</opencsv.version>
 				<jackson.version>2.18.2</jackson.version>
 				<jackson-annotations.version>2.18.2</jackson-annotations.version>
@@ -621,7 +621,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>6</aps.version.minor>
 				<aps.version.revision>0</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.10</opencsv.version>
 				<jackson.version>2.18.2</jackson.version>
 				<jackson-annotations.version>2.18.2</jackson-annotations.version>
@@ -661,7 +661,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>7</aps.version.minor>
 				<aps.version.revision>0</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.10</opencsv.version>
 				<jackson.version>2.18.2</jackson.version>
 				<jackson-annotations.version>2.18.2</jackson-annotations.version>
@@ -701,7 +701,7 @@
 				<aps.version.major>24</aps.version.major>
 				<aps.version.minor>7</aps.version.minor>
 				<aps.version.revision>1</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.10</opencsv.version>
 				<jackson.version>2.18.2</jackson.version>
 				<jackson-annotations.version>2.18.2</jackson-annotations.version>
@@ -741,7 +741,7 @@
 				<aps.version.major>25</aps.version.major>
 				<aps.version.minor>1</aps.version.minor>
 				<aps.version.revision>0</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.10</opencsv.version>
 				<jackson.version>2.18.2</jackson.version>
 				<jackson-annotations.version>2.18.2</jackson-annotations.version>
@@ -781,7 +781,7 @@
 				<aps.version.major>25</aps.version.major>
 				<aps.version.minor>1</aps.version.minor>
 				<aps.version.revision>1</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.10</opencsv.version>
 				<jackson.version>2.18.2</jackson.version>
 				<jackson-annotations.version>2.18.2</jackson-annotations.version>
@@ -821,7 +821,7 @@
 				<aps.version.major>25</aps.version.major>
 				<aps.version.minor>2</aps.version.minor>
 				<aps.version.revision>0</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.11.2</opencsv.version>
 				<jackson.version>2.19.1</jackson.version>
 				<jackson-annotations.version>2.19.1</jackson-annotations.version>
@@ -861,7 +861,7 @@
 				<aps.version.major>25</aps.version.major>
 				<aps.version.minor>2</aps.version.minor>
 				<aps.version.revision>1</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.11.2</opencsv.version>
 				<jackson.version>2.19.1</jackson.version>
 				<jackson-annotations.version>2.19.1</jackson-annotations.version>
@@ -901,7 +901,7 @@
 				<aps.version.major>25</aps.version.major>
 				<aps.version.minor>2</aps.version.minor>
 				<aps.version.revision>2</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.11.2</opencsv.version>
 				<jackson.version>2.19.1</jackson.version>
 				<jackson-annotations.version>2.19.1</jackson-annotations.version>
@@ -941,7 +941,7 @@
 				<aps.version.major>25</aps.version.major>
 				<aps.version.minor>2</aps.version.minor>
 				<aps.version.revision>3</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.11.2</opencsv.version>
 				<jackson.version>2.19.1</jackson.version>
 				<jackson-annotations.version>2.19.1</jackson-annotations.version>
@@ -981,7 +981,7 @@
 				<aps.version.major>25</aps.version.major>
 				<aps.version.minor>2</aps.version.minor>
 				<aps.version.revision>4</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.11.2</opencsv.version>
 				<jackson.version>2.19.1</jackson.version>
 				<jackson-annotations.version>2.19.1</jackson-annotations.version>
@@ -1021,7 +1021,7 @@
 				<aps.version.major>25</aps.version.major>
 				<aps.version.minor>3</aps.version.minor>
 				<aps.version.revision>0</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.12.0</opencsv.version>
 				<jackson.version>2.19.1</jackson.version>
 				<jackson-annotations.version>2.19.1</jackson-annotations.version>
@@ -1061,7 +1061,7 @@
 				<aps.version.major>25</aps.version.major>
 				<aps.version.minor>4</aps.version.minor>
 				<aps.version.revision>0</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.12.0</opencsv.version>
 				<jackson.version>2.21.3</jackson.version>
 				<jackson-annotations.version>2.21</jackson-annotations.version>
@@ -1101,7 +1101,7 @@
 				<aps.version.major>25</aps.version.major>
 				<aps.version.minor>4</aps.version.minor>
 				<aps.version.revision>1</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.12.0</opencsv.version>
 				<jackson.version>2.21.3</jackson.version>
 				<jackson-annotations.version>2.21</jackson-annotations.version>
@@ -1141,7 +1141,7 @@
 				<aps.version.major>25</aps.version.major>
 				<aps.version.minor>5</aps.version.minor>
 				<aps.version.revision>0</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.12.0</opencsv.version>
 				<jackson.version>2.22.2</jackson.version>
 				<jackson-annotations.version>2.22</jackson-annotations.version>
@@ -1181,7 +1181,7 @@
 				<aps.version.major>26</aps.version.major>
 				<aps.version.minor>1</aps.version.minor>
 				<aps.version.revision>0</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.12.0</opencsv.version>
 				<jackson.version>2.21.1</jackson.version>
 				<jackson-annotations.version>2.21</jackson-annotations.version>
@@ -1221,7 +1221,7 @@
 				<aps.version.major>26</aps.version.major>
 				<aps.version.minor>2</aps.version.minor>
 				<aps.version.revision>0</aps.version.revision>
-				<aps.2x.client.version>v2.3.7</aps.2x.client.version>
+				<aps2x.client.version>v2.3.7</aps2x.client.version>
 				<opencsv.version>5.12.0</opencsv.version>
 				<jackson.version>2.22.1</jackson.version>
 				<jackson-annotations.version>2.22</jackson-annotations.version>

@@ -194,7 +194,7 @@
 						<configuration>
 							<artifactItems>
 								<artifactItem>
-									<groupId>org.alfresco.activiti</groupId>
+									<groupId>${project.groupId}</groupId>
 									<artifactId>aps-extensions-jar</artifactId>
 									<version>${project.version}</version>
 									<type>jar</type>
@@ -215,7 +215,7 @@
 						<configuration>
 							<artifactItems>
 								<artifactItem>
-									<groupId>org.alfresco.activiti</groupId>
+									<groupId>${project.groupId}</groupId>
 									<artifactId>activiti-app-overlay-war</artifactId>
 									<version>${project.version}</version>
 									<type>war</type>
@@ -761,7 +761,7 @@
 								<configuration>
 									<artifactItems>
 										<artifactItem>
-											<groupId>org.alfresco.activiti</groupId>
+											<groupId>${project.groupId}</groupId>
 											<artifactId>aps-extensions-jar</artifactId>
 											<version>${project.version}</version>
 											<type>jar</type>
@@ -782,7 +782,7 @@
 								<configuration>
 									<artifactItems>
 										<artifactItem>
-											<groupId>org.alfresco.activiti</groupId>
+											<groupId>${project.groupId}</groupId>
 											<artifactId>activiti-app-overlay-war</artifactId>
 											<version>${project.version}</version>
 											<type>war</type>

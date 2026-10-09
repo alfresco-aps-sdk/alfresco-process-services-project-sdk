@@ -19,7 +19,7 @@
 			<dependency>
 				<groupId>com.github.OpenPj</groupId>
 				<artifactId>aps-2x-client</artifactId>
-				<version>${aps.2x.client.version}</version>
+				<version>${aps2x.client.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -98,7 +98,7 @@
 						<configuration>
 							<artifactItems>
 								<artifactItem>
-									<groupId>org.alfresco.activiti</groupId>
+									<groupId>${project.groupId}</groupId>
 									<artifactId>aps-extensions-jar</artifactId>
 									<version>${project.version}</version>
 									<classifier>App</classifier>

@@ -12,7 +12,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.alfresco.activiti</groupId>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>aps-extensions-jar</artifactId>
 			<version>${project.version}</version>
 			<type>jar</type>
