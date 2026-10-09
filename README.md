@@ -30,12 +30,34 @@ Comprehensive documentation, architecture deep dives, tutorials, and configurati
 
 ### Quick Links to Documentation Guides:
 * 🚀 **[Getting Started & Prerequisites](https://alfresco-aps-sdk.github.io/#/getting-started)** — JDK requirements, Nexus credentials, and license setup.
+* 📦 **[Maven Project Archetype](https://alfresco-aps-sdk.github.io/#/archetype)** — Bootstrap a new APS SDK project from scratch with a single command.
 * 🏗️ **[Project Architecture & Modules](https://alfresco-aps-sdk.github.io/#/architecture)** — Detailed breakdown of Maven submodules and build lifecycle.
 * 💻 **[Development & Extension Guide](https://alfresco-aps-sdk.github.io/#/development-guide)** — Writing Java delegates, listeners, Spring beans, REST APIs, and whitelisting.
 * ⚡ **[Running & Deployment](https://alfresco-aps-sdk.github.io/#/running-and-deployment)** — Run scripts command reference (`run.sh` / `run.bat`) and full Maven lifecycles.
 * 🐳 **[Docker & Environment Configuration](https://alfresco-aps-sdk.github.io/#/docker-configuration)** — Container topology, persistence volumes, Apple Silicon (ARM64) support, and remote debugging.
 * 🧪 **[Testing Guide](https://alfresco-aps-sdk.github.io/#/testing-guide)** — Embedded H2 unit tests and containerized Swagger integration tests.
 * 📋 **[Supported APS Versions & Profiles](https://alfresco-aps-sdk.github.io/#/supported-versions)** — Compatibility matrix covering APS 24.x through 26.x.
+
+---
+
+## 🚀 Quickstart: Bootstrap with Maven Archetype
+
+You can bootstrap a new APS project instantly using the official [APS Project Archetype](https://github.com/alfresco-aps-sdk/aps-project-archetype):
+
+```bash
+mvn archetype:generate \
+  -DarchetypeGroupId=org.alfresco.activiti \
+  -DarchetypeArtifactId=aps-project-archetype \
+  -DarchetypeVersion=3.1.3-SNAPSHOT \
+  -DgroupId=com.example \
+  -DartifactId=my-aps-project \
+  -Dversion=1.0.0-SNAPSHOT \
+  -Dpackage=com.example.aps \
+  -DinteractiveMode=false
+```
+
+> [!NOTE]
+> In accordance with Alfresco licensing terms, `activiti.lic` and `transform.lic` are **not** bundled with the archetype. Place your valid enterprise licenses in `my-aps-project/license/` before starting the environment. Learn more in the [Archetype Guide](https://alfresco-aps-sdk.github.io/#/archetype).
 
 ---
 
