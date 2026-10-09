@@ -10,7 +10,7 @@
   <a href="https://openjdk.org/"><img src="https://img.shields.io/badge/Java-17%20%7C%2021-orange.svg?logo=openjdk&logoColor=white" alt="Java" /></a>
   <a href="https://maven.apache.org/"><img src="https://img.shields.io/badge/Maven-3.9%2B-C71A36.svg?logo=apachemaven&logoColor=white" alt="Maven" /></a>
   <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-Multi--Arch%20(x86__64%20%7C%20ARM64)-2496ED.svg?logo=docker&logoColor=white" alt="Docker Multi-Arch" /></a>
-  <a href="https://alfresco-aps-sdk.github.io/#/supported-versions"><img src="https://img.shields.io/badge/APS-24.x%20%7C%2025.x%20%7C%2026.x-009900.svg" alt="APS Support" /></a>
+  <a href="https://alfresco-aps-sdk.github.io/#/supported-versions"><img src="https://img.shields.io/badge/APS%20Support-1.x%20%7C%202.x%20%7C%2024.x--26.x-009900.svg" alt="APS Support" /></a>
   <a href="https://alfresco-aps-sdk.github.io/"><img src="https://img.shields.io/badge/Website-Documentation-informational.svg?logo=github" alt="Website Documentation" /></a>
   <a href="https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/stargazers"><img src="https://img.shields.io/github/stars/alfresco-aps-sdk/alfresco-process-services-project-sdk?style=flat&logo=github" alt="GitHub Stars" /></a>
   <a href="https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/issues"><img src="https://img.shields.io/github/issues/alfresco-aps-sdk/alfresco-process-services-project-sdk?logo=github" alt="GitHub Issues" /></a>
@@ -18,6 +18,25 @@
 </p>
 
 The **Alfresco Process Services SDK (APS SDK)** is an enterprise development acceleration kit for building, extending, testing, and deploying custom solutions on **Alfresco Process Services (powered by Activiti)**.
+
+---
+
+## 🌿 Project Branches & APS Version Compatibility
+
+The APS SDK repository maintains dedicated branches corresponding to each major generation of Alfresco Process Services:
+
+| Project Branch | SDK Version | APS Generation | Supported APS Versions | Supported Java | Branch Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [**`3.x`**](https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/tree/3.x) *(current)* | **APS SDK 3.x** | Modern APS | **APS 24.1.0 up to APS 26.2.0** | Java 17, Java 21 | Active (Latest) |
+| [**`2.x`**](https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/tree/2.x) | **APS SDK 2.x** | Legacy APS 2.x | **APS 2.0.0 up to APS 2.4.5** | Java 11, Java 17 | Maintenance (Legacy) |
+| [**`master`**](https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/tree/master) | **APS SDK 1.x** | Legacy APS 1.x | **APS 1.9.0.5 up to APS 1.11.5** | Java 8, Java 11 | Maintenance (Legacy) |
+
+> [!TIP]
+> **Working with legacy APS?**  
+> If your enterprise is running legacy versions of Alfresco Process Services:
+> * For **APS 2.x** (APS 2.0.0 through 2.4.5), checkout the [`2.x` branch](https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/tree/2.x).
+> * For **APS 1.x** (APS 1.9.0.5 through 1.11.5), checkout the [`master` branch](https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/tree/master).
+> * For all **modern APS releases** (APS 24.1.0 up to 26.2.0+), stay on this [`3.x` branch](https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/tree/3.x) or bootstrap your project with the [Maven Archetype](https://alfresco-aps-sdk.github.io/#/archetype).
 
 ---
 
@@ -36,7 +55,7 @@ Comprehensive documentation, architecture deep dives, tutorials, and configurati
 * ⚡ **[Running & Deployment](https://alfresco-aps-sdk.github.io/#/running-and-deployment)** — Run scripts command reference (`run.sh` / `run.bat`) and full Maven lifecycles.
 * 🐳 **[Docker & Environment Configuration](https://alfresco-aps-sdk.github.io/#/docker-configuration)** — Container topology, persistence volumes, Apple Silicon (ARM64) support, and remote debugging.
 * 🧪 **[Testing Guide](https://alfresco-aps-sdk.github.io/#/testing-guide)** — Embedded H2 unit tests and containerized Swagger integration tests.
-* 📋 **[Supported APS Versions & Profiles](https://alfresco-aps-sdk.github.io/#/supported-versions)** — Compatibility matrix covering APS 24.x through 26.x.
+* 📋 **[Supported APS Versions & Profiles](https://alfresco-aps-sdk.github.io/#/supported-versions)** — Compatibility matrix covering APS 24.x through 26.x as well as legacy APS 1.x and 2.x branches.
 
 ---
 
