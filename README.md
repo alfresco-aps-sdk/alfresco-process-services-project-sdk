@@ -5,15 +5,15 @@
 <h1 align="center">Alfresco Process Services SDK Project (APS SDK 3.x)</h1>
 
 <p align="center">
-  <a href="https://github.com/OpenPj/alfresco-process-services-project-sdk/releases"><img src="https://img.shields.io/github/v/release/OpenPj/alfresco-process-services-project-sdk?logo=github&color=blue" alt="GitHub Release" /></a>
+  <a href="https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/releases"><img src="https://img.shields.io/github/v/release/alfresco-aps-sdk/alfresco-process-services-project-sdk?logo=github&color=blue" alt="GitHub Release" /></a>
   <a href="LICENSE.txt"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?logo=apache" alt="License" /></a>
   <a href="https://openjdk.org/"><img src="https://img.shields.io/badge/Java-17%20%7C%2021-orange.svg?logo=openjdk&logoColor=white" alt="Java" /></a>
   <a href="https://maven.apache.org/"><img src="https://img.shields.io/badge/Maven-3.9%2B-C71A36.svg?logo=apachemaven&logoColor=white" alt="Maven" /></a>
   <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-Multi--Arch%20(x86__64%20%7C%20ARM64)-2496ED.svg?logo=docker&logoColor=white" alt="Docker Multi-Arch" /></a>
-  <a href="https://github.com/OpenPj/alfresco-process-services-project-sdk/wiki/Supported-APS-Versions-and-Maven-Profiles"><img src="https://img.shields.io/badge/APS-24.x%20%7C%2025.x%20%7C%2026.x-009900.svg" alt="APS Support" /></a>
-  <a href="https://github.com/OpenPj/alfresco-process-services-project-sdk/wiki"><img src="https://img.shields.io/badge/Documentation-Wiki-informational.svg?logo=github" alt="Wiki Documentation" /></a>
-  <a href="https://github.com/OpenPj/alfresco-process-services-project-sdk/stargazers"><img src="https://img.shields.io/github/stars/OpenPj/alfresco-process-services-project-sdk?style=flat&logo=github" alt="GitHub Stars" /></a>
-  <a href="https://github.com/OpenPj/alfresco-process-services-project-sdk/issues"><img src="https://img.shields.io/github/issues/OpenPj/alfresco-process-services-project-sdk?logo=github" alt="GitHub Issues" /></a>
+  <a href="https://alfresco-aps-sdk.github.io/#/supported-versions"><img src="https://img.shields.io/badge/APS-24.x%20%7C%2025.x%20%7C%2026.x-009900.svg" alt="APS Support" /></a>
+  <a href="https://alfresco-aps-sdk.github.io/"><img src="https://img.shields.io/badge/Website-Documentation-informational.svg?logo=github" alt="Website Documentation" /></a>
+  <a href="https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/stargazers"><img src="https://img.shields.io/github/stars/alfresco-aps-sdk/alfresco-process-services-project-sdk?style=flat&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/issues"><img src="https://img.shields.io/github/issues/alfresco-aps-sdk/alfresco-process-services-project-sdk?logo=github" alt="GitHub Issues" /></a>
   <a href="https://www.taisolutions.com/"><img src="https://img.shields.io/badge/Enterprise%20Support-TAI%20Solutions-red.svg" alt="Enterprise Support" /></a>
 </p>
 
@@ -21,20 +21,21 @@ The **Alfresco Process Services SDK (APS SDK)** is an enterprise development acc
 
 ---
 
-## 📖 Full Documentation & Wiki
+## 📖 Official Website & Documentation
 
-Comprehensive documentation, architecture deep dives, tutorials, and configuration guides are available on the project wiki:
+Comprehensive documentation, architecture deep dives, tutorials, and configuration guides are available on the official website and wiki:
 
-👉 **[APS SDK GitHub Wiki](https://github.com/OpenPj/alfresco-process-services-project-sdk/wiki)**
+🌐 **[Official Website: https://alfresco-aps-sdk.github.io/](https://alfresco-aps-sdk.github.io/)**  
+📖 **[APS SDK GitHub Wiki](https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/wiki)**
 
-### Quick Links to Wiki Guides:
-* 🚀 **[Getting Started & Prerequisites](https://github.com/OpenPj/alfresco-process-services-project-sdk/wiki/Getting-Started-and-Prerequisites)** — JDK requirements, Nexus credentials, and license setup.
-* 🏗️ **[Project Architecture & Modules](https://github.com/OpenPj/alfresco-process-services-project-sdk/wiki/Project-Architecture-and-Modules)** — Detailed breakdown of Maven submodules and build lifecycle.
-* 💻 **[Development & Extension Guide](https://github.com/OpenPj/alfresco-process-services-project-sdk/wiki/Development-and-Extension-Guide)** — Writing Java delegates, listeners, Spring beans, REST APIs, and whitelisting.
-* ⚡ **[Running & Deployment](https://github.com/OpenPj/alfresco-process-services-project-sdk/wiki/Running-and-Deployment)** — Run scripts command reference (`run.sh` / `run.bat`) and full Maven lifecycles.
-* 🐳 **[Docker & Environment Configuration](https://github.com/OpenPj/alfresco-process-services-project-sdk/wiki/Docker-and-Environment-Configuration)** — Container topology, persistence volumes, Apple Silicon (ARM64) support, and remote debugging.
-* 🧪 **[Testing Guide](https://github.com/OpenPj/alfresco-process-services-project-sdk/wiki/Testing-Guide)** — Embedded H2 unit tests and containerized Swagger integration tests.
-* 📋 **[Supported APS Versions & Profiles](https://github.com/OpenPj/alfresco-process-services-project-sdk/wiki/Supported-APS-Versions-and-Maven-Profiles)** — Compatibility matrix covering APS 24.x through 26.x.
+### Quick Links to Documentation Guides:
+* 🚀 **[Getting Started & Prerequisites](https://alfresco-aps-sdk.github.io/#/getting-started)** — JDK requirements, Nexus credentials, and license setup.
+* 🏗️ **[Project Architecture & Modules](https://alfresco-aps-sdk.github.io/#/architecture)** — Detailed breakdown of Maven submodules and build lifecycle.
+* 💻 **[Development & Extension Guide](https://alfresco-aps-sdk.github.io/#/development-guide)** — Writing Java delegates, listeners, Spring beans, REST APIs, and whitelisting.
+* ⚡ **[Running & Deployment](https://alfresco-aps-sdk.github.io/#/running-and-deployment)** — Run scripts command reference (`run.sh` / `run.bat`) and full Maven lifecycles.
+* 🐳 **[Docker & Environment Configuration](https://alfresco-aps-sdk.github.io/#/docker-configuration)** — Container topology, persistence volumes, Apple Silicon (ARM64) support, and remote debugging.
+* 🧪 **[Testing Guide](https://alfresco-aps-sdk.github.io/#/testing-guide)** — Embedded H2 unit tests and containerized Swagger integration tests.
+* 📋 **[Supported APS Versions & Profiles](https://alfresco-aps-sdk.github.io/#/supported-versions)** — Compatibility matrix covering APS 24.x through 26.x.
 
 ---
 
