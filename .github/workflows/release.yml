@@ -6,21 +6,11 @@ on:
       release_version:
         description: 'Release version (e.g. 3.1.2)'
         required: true
-        type: string
+        default: '3.1.2'
       next_version:
-        description: 'Next development version (e.g. 3.1.3-SNAPSHOT)'
+        description: 'Next SNAPSHOT version (e.g. 3.1.3-SNAPSHOT)'
         required: true
-        type: string
-      dry_run:
-        description: 'Dry run (do not push changes or create release)'
-        required: false
-        default: false
-        type: boolean
-      prerelease:
-        description: 'Mark as pre-release'
-        required: false
-        default: false
-        type: boolean
+        default: '3.1.3-SNAPSHOT'
 
   push:
     tags:
@@ -35,13 +25,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v7.0.1
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up JDK 21
-        uses: actions/setup-java@v6.0.1
+        uses: actions/setup-java@v6
         with:
           distribution: 'temurin'
           java-version: '21'
@@ -75,13 +65,9 @@ jobs:
           echo "Committing next snapshot version..."
           git commit -am "[skip ci] Next development version ${NEXT_VER}"
           
-          if [ "${{ inputs.dry_run }}" = "false" ]; then
-            echo "Pushing branch and tag to origin..."
-            git push origin HEAD:${{ github.ref_name }}
-            git push origin "${TAG_NAME}"
-          else
-            echo "Dry run enabled: Skipping push to remote."
-          fi
+          echo "Pushing branch and tag to origin..."
+          git push origin HEAD:${{ github.ref_name }}
+          git push origin "${TAG_NAME}"
           
           echo "tag_name=${TAG_NAME}" >> $GITHUB_OUTPUT
           echo "release_name=Release ${TAG_NAME}" >> $GITHUB_OUTPUT
@@ -95,20 +81,12 @@ jobs:
           echo "release_name=Release ${TAG_NAME}" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
-        if: (github.event_name == 'push') || (github.event_name == 'workflow_dispatch' && inputs.dry_run == false)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAG_NAME: ${{ steps.dispatch_release.outputs.tag_name || steps.push_release.outputs.tag_name }}
           RELEASE_NAME: ${{ steps.dispatch_release.outputs.release_name || steps.push_release.outputs.release_name }}
-          IS_PRERELEASE: ${{ inputs.prerelease || false }}
         run: |
-          PRERELEASE_FLAG=""
-          if [ "${IS_PRERELEASE}" = "true" ]; then
-            PRERELEASE_FLAG="--prerelease"
-          fi
-          
           echo "Creating GitHub Release for ${TAG_NAME}..."
           gh release create "${TAG_NAME}" \
             --title "${RELEASE_NAME}" \
-            --generate-notes \
-            ${PRERELEASE_FLAG}
+            --generate-notes
