@@ -42,13 +42,13 @@ Comprehensive documentation, architecture deep dives, tutorials, and configurati
 
 ## 🚀 Quickstart: Bootstrap with Maven Archetype
 
-You can bootstrap a new APS project instantly using the official [APS Project Archetype](https://github.com/alfresco-aps-sdk/aps-project-archetype):
+You can bootstrap a new APS project instantly using the official [APS Project Archetype](https://github.com/alfresco-aps-sdk/aps-project-archetype), publicly available on **[Maven Central](https://central.sonatype.com/artifact/io.github.alfresco-aps-sdk/aps-project-archetype)**:
 
 ```bash
 mvn archetype:generate \
-  -DarchetypeGroupId=org.alfresco.activiti \
+  -DarchetypeGroupId=io.github.alfresco-aps-sdk \
   -DarchetypeArtifactId=aps-project-archetype \
-  -DarchetypeVersion=3.1.3-SNAPSHOT \
+  -DarchetypeVersion=3.1.3 \
   -DgroupId=com.example \
   -DartifactId=my-aps-project \
   -Dversion=1.0.0-SNAPSHOT \
