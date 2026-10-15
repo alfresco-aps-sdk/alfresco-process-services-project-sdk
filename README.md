@@ -12,6 +12,7 @@
   <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-Multi--Arch%20(x86__64%20%7C%20ARM64)-2496ED.svg?logo=docker&logoColor=white" alt="Docker Multi-Arch" /></a>
   <a href="https://alfresco-aps-sdk.github.io/#/supported-versions"><img src="https://img.shields.io/badge/APS%20Support-1.x%20%7C%202.x%20%7C%2024.x--26.x-009900.svg" alt="APS Support" /></a>
   <a href="https://alfresco-aps-sdk.github.io/"><img src="https://img.shields.io/badge/Website-Documentation-informational.svg?logo=github" alt="Website Documentation" /></a>
+  <a href="https://deepwiki.com/alfresco-aps-sdk/alfresco-process-services-project-sdk"><img src="https://img.shields.io/badge/DeepWiki-Documentation-blue.svg" alt="DeepWiki Documentation" /></a>
   <a href="https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/stargazers"><img src="https://img.shields.io/github/stars/alfresco-aps-sdk/alfresco-process-services-project-sdk?style=flat&logo=github" alt="GitHub Stars" /></a>
   <a href="https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/issues"><img src="https://img.shields.io/github/issues/alfresco-aps-sdk/alfresco-process-services-project-sdk?logo=github" alt="GitHub Issues" /></a>
   <a href="https://www.taisolutions.com/"><img src="https://img.shields.io/badge/Enterprise%20Support-TAI%20Solutions-red.svg" alt="Enterprise Support" /></a>
@@ -45,7 +46,8 @@ The APS SDK repository maintains dedicated branches corresponding to each major 
 Comprehensive documentation, architecture deep dives, tutorials, and configuration guides are available on the official website and wiki:
 
 🌐 **[Official Website: https://alfresco-aps-sdk.github.io/](https://alfresco-aps-sdk.github.io/)**  
-📖 **[APS SDK GitHub Wiki](https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/wiki)**
+📖 **[APS SDK GitHub Wiki](https://github.com/alfresco-aps-sdk/alfresco-process-services-project-sdk/wiki)**  
+🧠 **[DeepWiki AI Documentation](https://deepwiki.com/alfresco-aps-sdk/alfresco-process-services-project-sdk)**
 
 ### Quick Links to Documentation Guides:
 * 🚀 **[Getting Started & Prerequisites](https://alfresco-aps-sdk.github.io/#/getting-started)** — JDK requirements, Nexus credentials, and license setup.
